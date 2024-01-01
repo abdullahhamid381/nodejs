@@ -1,4 +1,4 @@
-console.log('hello first')
+let a= 10
 setTimeout(()=>{
     console.log('hello secod')
 },2000)
