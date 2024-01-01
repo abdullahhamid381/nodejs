@@ -15,4 +15,11 @@ const filepath = `${dirpath}/app.js`
             console.log('file is updated')
         }
     })
-    fs.rename(filepath,`${dirpath}/fruit.js`)
+    fs.rename(filepath,`${dirpath}/fruit.js`,(err)=>{
+        if(err){
+            console.log('error is genrated')
+        }
+        else{
+            console.log('name is updated')
+        }
+    })
