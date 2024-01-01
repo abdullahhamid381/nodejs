@@ -15,3 +15,4 @@ const filepath = `${dirpath}/app.js`
             console.log('file is updated')
         }
     })
+    fs.rename(filepath,`${dirpath}/fruit.js`)
