@@ -3,4 +3,4 @@ let b = 0
 setTimeout(()=>{
    let b= 20
 },2000)
-console.log('hello fthird')
+console.log(a+b)
